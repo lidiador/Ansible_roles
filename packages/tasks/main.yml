@@ -1,0 +1,9 @@
+---
+- name: Zainstaluj unzip
+  package:
+    name: unzip
+    state: present
+- name: zainstaluj net-tools
+  package:
+    name: net-tools
+    state: present
